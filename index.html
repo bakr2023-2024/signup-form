@@ -9,7 +9,10 @@
   <body>
     <div id="container">
       <div id="left">
-        <div id="logo"></div>
+        <div id="logo">
+          <img src="./resources/odin-lined.png" />
+          <p>ODIN</p>
+        </div>
         <footer id="credits">
           &copy; 2025
           <a href="https://github.com/bakr2023-2024" target="_blank"
@@ -27,48 +30,55 @@
           <p>You know you want to.</p>
         </div>
         <form action="https://httpbin.org/post" method="post">
-          <h3>Let's do this!</h3>
           <div id="inputs">
-            <div id="input-group">
-              <label for="firstName">FIRST NAME</label>
-              <input
-                type="text"
-                placeholder="Thor"
-                id="firstName"
-                name="firstName"
-                required
-              />
-            </div>
-            <div id="input-group">
-              <label for="lastName">LAST NAME</label>
-              <input
-                type="text"
-                placeholder="Odinson"
-                id="lastName"
-                name="lastName"
-                required
-              />
-            </div>
-            <div id="input-group">
-              <label for="email">EMAIL</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div id="input-group">
-              <label for="phoneNumber">PHONE NUMBER</label>
-              <input type="text" id="phoneNumber" name="phoneNumber" required />
-            </div>
-            <div id="input-group">
-              <label for="password">PASSWORD</label>
-              <input type="password" id="password" name="password" required />
-            </div>
-            <div id="input-group">
-              <label for="confirmPassword">CONFIRM PASSWORD</label>
-              <input
-                type="password"
-                id="confirmPassword"
-                name="confirmPassword"
-                required
-              />
+            <h3>Let's do this!</h3>
+            <div>
+              <div class="input-group">
+                <label for="firstName">FIRST NAME</label>
+                <input
+                  type="text"
+                  placeholder="Thor"
+                  id="firstName"
+                  name="firstName"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="lastName">LAST NAME</label>
+                <input
+                  type="text"
+                  placeholder="Odinson"
+                  id="lastName"
+                  name="lastName"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="input-group">
+                <label for="phoneNumber">PHONE NUMBER</label>
+                <input
+                  type="text"
+                  id="phoneNumber"
+                  name="phoneNumber"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+              <div class="input-group">
+                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  required
+                />
+              </div>
             </div>
           </div>
           <div id="controls">
